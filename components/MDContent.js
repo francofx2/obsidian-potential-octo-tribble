@@ -38,7 +38,8 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
     }
 
     useRouter();
-    return (
+    return true;
+    //(
 
         //<div className="markdown-rendered">
            // <Alert severity="info">
@@ -57,7 +58,7 @@ function MDContent({content, backLinks, handleOpenNewContent}) {
               //  <p>Powered by  <a href="https://github.com/TuanManhCao/digital-garden">Mind Stone</a>, © 2022</p>
             //</footer>
         //</div>
-    );
+    //);
 }
 
 export default MDContent;
